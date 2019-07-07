@@ -16,36 +16,37 @@
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
 listofpackages=(
-    libmate
-    libmatecanvas
-    libmatecomponent
-    libmatecomponentui
+    atril
+    caja
+    caja
+    caja-dropbox
+    caja-extensions
+    engrampa
+    eom
     libmatekbd
-    libmatekeyring
-    libmatenotify
-    libmateui
+    libmatemixer
     libmateweather
-    libmatewnck
+    marco
+    mate-applets
     mate-backgrounds
-    mate-common
-    mate-conf
-    mate-control-center
-    mate-corba
+    mate-calc
     mate-desktop
-    mate-dialogs
-    mate-doc-utils
-    mate-file-manager
+    mate-desktop
     mate-icon-theme
-    mate-keyring
+    mate-icon-theme
     mate-menus
-    mate-mime-data
     mate-notification-daemon
     mate-panel
-    mate-polkit
+    mate-screensaver
+    mate-sensors-applet
     mate-session-manager
     mate-settings-daemon
-    mate-vfs
-    mate-window-manager
+    mate-terminal
+    mate-user-guide
+    mate-utils
+    mozo
+    pluma
+    python-caja
 )
 
 for i in $(seq 0 $((${#listofpackages[@]} - 1))); do
